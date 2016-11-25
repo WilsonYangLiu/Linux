@@ -1,0 +1,19 @@
+xrandr	It is used to set the size, orientation or reflection of the outputs 
+		for a screen. (more info, see: https://wiki.archlinux.org/index.php/xrandr)
+
+javaws	used for jnlp file. (https://www.java.com/en/download/faq/java_webstart.xml)
+
+tar -cvf	对文件或目录存档
+tar -tvf	列出存档中的文件
+
+md5sum
+	
+gnome-system-monitor
+
+# core, memory, storage
+1. cat /proc/cpuinfo |grep process |wc -l
+2. free -g
+3. df -h
+
+
+
