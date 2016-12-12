@@ -1,0 +1,88 @@
+--------------Linux installed software---------
+	shadowsocks: https://github.com/librehat/shadowsocks-qt5/wiki/Installation#ubuntu
+		[sudo add-apt-repository ppa:hzwhuang/ss-qt5
+		sudo apt-get update
+		sudo apt-get install shadowsocks-qt5]
+	vim
+	Mplayer: http://wiki.ubuntu.com.cn/MPlayer
+	filezilla
+	GParted
+	flacon
+		[sudo add-apt-repository ppa:flacon
+		sudo apt-get update
+		sudo apt-get install flacon]
+	ibus-googlepinyin
+	smplayer
+	code::block
+	--------
+	Playonlinux
+	Wine: http://wiki.ubuntu.org.cn/Wine
+	goldendick
+	rpm
+	geany
+	gpaint
+	default-jar
+	gimp
+	--------
+
+	rstudio	
+	netease-cloud-music
+	teamviewer
+	transmission
+	Virtualbox + vbox-extpack
+		[sudo vim /etc/apt/source.list
+		add "deb http://download.virtualbox.org/virtualbox/debian vivid contrib" in source.list
+		sudo apt-key add oracle_vbox.asc
+		sudo apt-get update
+		sudo apt-get install virtualbox-<version>]
+	--------
+	msoffice
+	chrome
+	--------
+	
+	proxychains	
+		[Dropbox]
+	R language
+	Adobe Flash Player
+	
+
+--------------R and R package installed--------------
+	install latest R 
+	[sudo vim /etc/apt/source.list
+	deb http://mirror.bjtu.edu.cn/cran/bin/linux/ubuntu wily/	< change wily to trusty or vivid or precise >
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+	sudo apt-get update
+	sudo apt-get install r-base]
+
+!!!	above not work for ubuntu 14.04. Try below:
+	[sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+	sudo apt-get update
+	sudo apt-get install g++-4.9]
+
+	Then follow the steps at http://cran.us.r-project.org/
+	
+	
+	DESeq2
+	limma/affy
+	shiny	开发交互式web应用
+	feather	提高R的存取效率
+	magrittr	R语言高效的管道操作
+	--------
+	RUVSeq	Remove Unwanted Variation from RNA-Seq Data
+
+
+--------------VPS installed software------------------
+    1  sudo passwd
+    2  adduser Wilson
+    3  passwd Wilson
+    4  visudo 
+	# change ssh port and forbid root access
+	5  vim /etc/ssh/sshd_config
+	# install Shadowsocks
+	#6  yum install python-setuptools && easy_install pip
+	#7  pip install shadowsocks
+	6	yum install m2crypto git libsodium
+	7	git clone -b manyuser https://github.com/breakwa11/shadowsocks.git
+	# install supervisor
+	8  easy_install supervisor
+
