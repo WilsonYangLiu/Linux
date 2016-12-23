@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
 fi
 
 ###################################################################
-cp ~/.bashrc ~/Dropbox/Document/Linux/bashrc
+cp ~/.bashrc ~/Github/Linux/bashrc
 # for the 2.0 TB volume
 data=/media/wilson/b776f228-366c-4e52-acd6-65df5b458e8c/
 export data

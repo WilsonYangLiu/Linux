@@ -3,6 +3,7 @@
 # description: Start or stop the Shadowsocks R server
 #
 ### BEGIN INIT INFO
+# save this file to /etc/init.d/shadowsocks
 # Provides: Shadowsocks-R
 # Required-Start: $network $syslog
 # Required-Stop: $network
