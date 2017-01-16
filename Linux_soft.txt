@@ -61,8 +61,6 @@
 	Then follow the steps at http://cran.us.r-project.org/
 
 	feather	提高R的存取效率
-	magrittr	R语言高效的管道操作
-
 
 --------------VPS installed software------------------
     1  sudo passwd
