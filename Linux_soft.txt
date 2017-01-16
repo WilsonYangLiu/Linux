@@ -58,17 +58,10 @@
 	[sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 	sudo apt-get update
 	sudo apt-get install g++-4.9]
-
 	Then follow the steps at http://cran.us.r-project.org/
-	
-	
-	DESeq2
-	limma/affy
-	shiny	开发交互式web应用
+
 	feather	提高R的存取效率
 	magrittr	R语言高效的管道操作
-	--------
-	RUVSeq	Remove Unwanted Variation from RNA-Seq Data
 
 
 --------------VPS installed software------------------
